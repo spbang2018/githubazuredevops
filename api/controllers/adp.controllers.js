@@ -21,14 +21,14 @@ module.exports.adpGetAllHotel = function(req,res){
         .json(returnData);
 };
 
-module.exports.adpGetOne = function(req,res){
+/* module.exports.adpGetOne = function(req,res){
     var hotelId = req.params.hotelId;
     var thisHotel = hotelData[hotelId];
     console.log('get hotelId',hotelId);
     res
         .status(200)
         .json(thisHotel);
-};
+}; */
 
 module.exports.adpAddOne = function(req,res){
     console.log("POST new hotel");
