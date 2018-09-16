@@ -9,9 +9,9 @@ router
 
 module.exports = router;
 
-/* router
+router
  .route('/json/:hotelId')
- .get(ctrladp.adpGetOne); */
+ .get(ctrladp.adpGetOne);
 
  router
     .route('/json/new/')
